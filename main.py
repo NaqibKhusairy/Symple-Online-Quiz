@@ -4,27 +4,27 @@ dash = "-" * 72
 
 SoalanDanJawapan = [
 	["Apakah Maksud Bahasa Istana 'Kaus' ?", "Berjalan", "Kasut", "Berlari", "Topi",
-	 "Kasut","1"],#1
+	 "Kasut","1"],
 	["-3+9-x+12=10\nBerapakan Nilai x?", "-8", "18", "10", "8",
-	 "8","2"],#2
+	 "8","2"],
 	["Apakah Maksud Bahasa Istana 'Iram-Iram'?", "Sakit", "Kepala", "Hari Lahir", "Payung",
-	 "Payung","3"],#3
+	 "Payung","3"],
 	["(2p −3)(5p + 4) =", "4p^2-120", "10p^2-12", "10p^2-7p-12", "10p^2+7p-12",
-	 "10p^2-7p-12","3"],#3
+	 "10p^2-7p-12","3"],
 	["What The Meanig Of 'Skills in Economic Planning'", 
 	"Kemahiran dalam Pemusnah Planning Ekonomi", "kemahiran dalam Kemelesetan Ekonomi",
 	 "Kemahiran dalam Perancangan Ekonomi", "Kemahiran dalam Inflasi", 
-	"Kemahiran dalam Perancangan Ekonomi","4"],#4
+	"Kemahiran dalam Perancangan Ekonomi","4"],
 	["Apakah Fungsi Koroid", "Mengekalkan Bentuk Mata", "Menghasilkan Impuls Saraf", 
 	"Mencegah Pantulan Cahaya Dalam Mata", "Melindungi Mata", 
-	"Mencegah Pantulan Cahaya Dalam Mata","5"],#5
+	"Mencegah Pantulan Cahaya Dalam Mata","5"],
 	["Negara X - kenaikan harga barang dan perkhidmatan secara berterusan\nApakah Yang Mungkin Berlaku Di Negara X ?", 
 	"Deflasi", "Kemelesetan Ekonomi", "Ekonomi Negara X menigkat tinggi", "Inflasi", 
-	"Inflasi","6"],#6
+	"Inflasi","6"],
 	["Apakah Maksud 5 bilah keris Di Logo Jata Negara Malaysia", "Mewakili Negeri-Negeri Besekutu",
 	 "Mewakili Sabah,Sarawak,Pulau Pinang,Melaka dan Selangor", "Mewakili Negeri-Negeri Tidak Bersekutu",
 	  "Melambangkan Keberanian 5 Orang Pendekar", 
-	  "Mewakili Negeri-Negeri Tidak Bersekutu","10"],#10
+	  "Mewakili Negeri-Negeri Tidak Bersekutu","10"],
 ]
 
 bilangansoalan = len(SoalanDanJawapan)
