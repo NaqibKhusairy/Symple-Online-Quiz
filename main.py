@@ -71,7 +71,7 @@ def gred(peratus):
 	return gredd, Tahap
 
 print(dash)
-print("{:<20}{:<52}".format("", "Please answer All The Question : "))
+print("{:<23}{:<49}".format("", "Sila jawab Semua Soalan : "))
 print("{:<14}{:<58}".format("", "Kuiz Ini mempunyai : "+str(bilangansoalan)+" Yang Perlu Dijawab"))
 print(dash)
 
@@ -97,12 +97,12 @@ while SoalanDanJawapan:
 	print()
 
 	while True :
-		JawapanUser = input("Your answer (A-D): ").upper()
+		JawapanUser = input("Jawapan Anda (A-D): ").upper()
 		if JawapanUser in ['A','B','C','D'] :
 			break
 		else:
-			print("Your Must Only insert A, B, C, or D.")
-			print("Please Reunswer the Question")
+			print("Mesti Anda Hanya masukkan A, B, C atau D.")
+			print("Sila Jawab Semula Soalan")
 			print(dash)
 			random.shuffle(PilihanJawapan)
 			print(SOALAN)
@@ -117,12 +117,12 @@ while SoalanDanJawapan:
 			print()
 
 	if JawapanUser == JawapanYangBetul:
-		print("Correct Answer!\n")
+		print("Jawapan anda betul!\n")
 		total += markah
 		jumlahbetul += 1
 
 	else:
-		print("Wrong Answer!\n")
+		print("Jawapan anda salah!\n")
 
 	SoalanDanJawapan.remove(Soalan)
 	print(dash)
@@ -153,9 +153,9 @@ if gredd != "invalid" :
 	if Tahap != "Gagal" : 
 		print("Tahap Anda : "+Tahap)
 	elif Tahap == "invalid":
-		print("Your Result Is Invalid")
+		print("Keputusan Anda Tidak Sah !!!!")
 	else :
 		print("Anda Gagal !!!")
 else :
-	print("Your Result Is Invalid !!!!")
+	print("Keputusan Anda Tidak Sah !!!!")
 print(dash)
